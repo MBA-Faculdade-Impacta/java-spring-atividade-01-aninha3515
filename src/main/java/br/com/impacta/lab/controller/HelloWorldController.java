@@ -11,6 +11,9 @@ public class HelloWorldController {
 
 	@GetMapping("hello")
 	public ResponseEntity<String> helloWorld() {
+
+
+    int numero1=15;
 		
 		//Digite -> Hello world !
 		return ResponseEntity.ok("Hello world !!!");

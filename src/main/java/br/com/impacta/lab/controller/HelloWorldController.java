@@ -16,7 +16,7 @@ public class HelloWorldController {
     int numero1=15;
 		
 		//Digite -> Hello world !
-		return ResponseEntity.ok("Hello world !!!");
+		return ResponseEntity.ok("Hello world !");
 	}
 	
 }
